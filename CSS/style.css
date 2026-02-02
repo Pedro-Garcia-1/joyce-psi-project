@@ -81,12 +81,10 @@ body::before {
 .main-div-sec-2{
     display: flex;
     position: relative;
-    left: 2.5%;
     top: 2.5%;
-    width: 95%;
-    height: 95%;
-    background-color: white;
-    border-radius: 15px;
+    width: 100%;
+    height: 90%;
+    border-radius: 0;
 }
 
 .card{
@@ -95,13 +93,46 @@ body::before {
 }
 
 .sec-2-card-1{
+    
+    /* border-right: solid 3px rgb(128, 151, 120); */
+    border-radius: 0;
+    background-color: rgba(128, 151, 120, 0.5);
+}
 
+.sec-2-card-2{
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 151, 120, 0.5);
+    border-radius: 0;
+    z-index: 1;
 }
 
 .sec-2-card-1-paragraph{
     position: relative;
     top: 20%;
-    text-align: center;
+    left: 8%;
+    color: #ffead8;
+    text-align: justify;
+    hyphens: auto;
+    font-size: 15pt;
+    z-index: 2;
+    font-family: "Roboto Slab", serif;
+
+}
+
+.title-sec-2{
+    position: relative;
+    left: 8%;
+    top: 3%;
+    font-size: 40pt;
+    font-family: "Josefin Sans", sans-serif;
+    color: #ffead8;
+}
+
+
+
+video{
+    width: fit-content;
 }
 
 .todo{
@@ -124,3 +155,10 @@ body::before {
   font-style: normal;
 }
 
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
