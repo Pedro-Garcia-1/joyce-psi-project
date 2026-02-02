@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(/images/duasPessoasTomandoCafeNaHorizontalCortada.jpg);
+    background-size: cover;
+    margin: 0;
+    
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgba(135, 150, 130, 0.9), /* Green color */
+    rgba(176, 196, 170, 0.00)    /* Transparent edge */
+  );
+  z-index: 1;
+}
+
+#site-logo{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 3%;
+    margin-top: 1%;
+}
+
+.main-content-sec-1{
+    position: absolute;
+    top: 50%;
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    color: #ffead8;
+    font-size: 24px;
+    z-index: 2;
+    white-space: nowrap;
+    font-family: "Roboto Slab", serif;
+}
+
+.main-paragraph-sec-1{
+    font-size: 20pt;
+}
+
+.more-info-btn{
+    text-decoration: none;
+    color: rgb(128, 151, 120);
+
+    border: 2px solid #ffead8;
+    border-radius: 10px;
+    border-width: 8px;
+    padding-bottom: 3px;
+    background-color: #ffead8;
+}
+
+#section-1{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* section 2 ============================== */
+
+#section-2{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container-sect-2{
+    /*background-color: #ffead8; */
+    width: 100vw;
+    height: 100vh;   
+}
+
+.main-div-sec-2{
+    display: flex;
+    position: relative;
+    left: 2.5%;
+    top: 2.5%;
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.card{
+    flex: 1;
+    border: 0;
+}
+
+.sec-2-card-1{
+
+}
+
+.sec-2-card-1-paragraph{
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+
+.todo{
+    opacity: 0;
+    transition: 600ms ease;
+}
+
+.todo.show{
+    opacity: 1;
+}
+
+
+/* Fontes ----------------------------------------*/
+
+
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
