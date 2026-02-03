@@ -202,10 +202,111 @@ video{
     color: #ffead8;
 }
 
-.border{
-    border: 0;
+.paragraph-divisor{
+    position: absolute;
+    top: 40%;
+    left: 99%;
+    width: 5px;
+    border-top-width: 190px;
+    color: #ffead8;
+    opacity: 1;
+    border-radius: 13px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    
 }
 
+.contact-btn{
+    position: relative;
+    bottom: 12%;
+    left: 85%;
+    text-decoration: none;
+    color: rgb(128, 151, 120);
+
+    border: 2px solid #ffead8;
+    border-radius: 10px;
+    border-width: 8px;
+    padding-bottom: 3px;
+    background-color: rgb(255, 234, 216);
+    font-size: 16pt;
+    width: 350px;
+    z-index: 4;
+}
+
+/* section 3 ------------------------------------ */
+
+.main-container-sect-4{
+    width: 100vw;
+    height: 100vh;  
+    background-image: url(/images/foto-melhorada\ \(1\).png);
+    background-size: cover;
+}
+
+.main-div-sec-4{
+    display: flex;
+    position: relative;
+    top: 2.5%;
+    width: 100%;
+    height: 90%;
+    border-radius: 0;
+}
+
+.sec-4-card-1{
+    
+    /* border-right: solid 3px rgb(128, 151, 120); */
+    border-radius: 0;
+    background-color: rgba(128, 151, 120, 0.75);
+}
+
+.sec-4-card-2{
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 151, 120, 0.75);
+    border-radius: 0;
+    z-index: 1;
+}
+
+.professional-personal-photo{
+    position: relative;
+    height: 650px;
+    width: 400px;
+    top: 8.5%;
+    left: 20%;
+}
+
+.sec-4-card-1-paragraph{
+    position: relative;
+    top: 22%;
+    left: 8%;
+    color: #ffead8;
+    text-align: justify;
+    hyphens: auto;
+    font-size: 30pt;
+    width: 75%;
+    z-index: 2;
+    font-family: "Roboto Slab", serif;
+
+}
+
+ ul{
+    position: relative;
+    right: 30%;
+    top: 3%;
+    font-size: 25pt;
+    color: #ffead8;
+    font-family: "Roboto Slab", serif;
+    list-style-type: none;
+ }
+
+ .contact-options{
+    margin-bottom: 15px;
+ }
+
+.social-medias{
+    text-decoration: none;
+    color: #ffead8;
+}
 
 .todo{
     opacity: 0;
