@@ -346,11 +346,10 @@ video{
 
 .sec-5-card-1-paragraph{
     position: relative;
-
     color: #ffead8;
     text-align: justify;
     hyphens: auto;
-    font-size: 15pt;
+    font-size: 10pt;
     z-index: 2;
     font-family: "Roboto Slab", serif;
 
@@ -378,6 +377,43 @@ video{
     font-size: 40pt;
     font-family: "Josefin Sans", sans-serif;
     color: #ffead8;
+}
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.slider-wrapper .swiper-pagination-bullet{
+    background: #ffead8;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .swiper-slide-button{
+    color: #ffead8;
+}
+
+.card-list .card-item {
+    background-color: rgba(70, 82, 66, 0.5);
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+
+}
+
+.back-to-beginning-btn{
+    position: relative;
+    left: 95%;
+    z-index: 2;
 }
 
 .todo{

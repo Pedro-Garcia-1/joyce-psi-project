@@ -12,14 +12,33 @@ const todoElements = document.querySelectorAll('.todo');
 
 todoElements.forEach(item => observer.observe(item));
 
-// const observer2 = new IntersectionObserver((entry) => {
-//     entries.forEach((entry) => {
-//         if(entry.isIntersecting){
-//             console.log(section3);
-//         }
-//     })
-// }, {});
+//Swiper -------------------------------------------------
+const swiper = new Swiper('.slider-wrapper', {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 30,
 
-// const section3 = document.querySelectorAll('.section-3');
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
+  },
 
-// observer2.forEach(item => observer.observe(section3));
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    0: {
+        slidesPerView: 1
+    },
+    620: {
+        slidesPerView: 2
+    },
+    1020: {
+        slidesPerView: 3
+    },
+  }
+});
