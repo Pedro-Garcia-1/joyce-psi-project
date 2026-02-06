@@ -58,6 +58,7 @@ body::before {
     border-width: 8px;
     padding-bottom: 3px;
     background-color: #ffead8;
+    transition: 0.2s ease;
 }
 
 #section-1{
@@ -148,6 +149,7 @@ video{
     position: relative;
     top: 28%;
     left: 27.3%;
+    transition: 0.2s ease;
 }
 
 
@@ -233,6 +235,7 @@ video{
     font-size: 16pt;
     width: 350px;
     z-index: 4;
+    transition: 0.2s ease;
 }
 
 /* section 3 ------------------------------------ */
@@ -324,6 +327,7 @@ video{
     font-size: 16pt;
     width: 115px;
     z-index: 4;
+    transition: 0.2s ease;
 }
 
 /* section 5 ----------------------------------- */
@@ -412,8 +416,25 @@ video{
 
 .back-to-beginning-btn{
     position: relative;
-    left: 95%;
+    text-decoration: none;
+    left: 85%;
+    bottom: 7%;
+    color: rgb(128, 151, 120);
+    
+    border: 2px solid #ffead8;
+    border-radius: 10px;
+    border-width: 8px;
+    padding-bottom: 3px;
+    background-color: rgb(255, 234, 216);
+    font-size: 13pt;
+    width: 115px;
     z-index: 2;
+    transition: 0.2s ease;
+}
+
+a:hover{
+    background-color: #dac3ae;
+    border-color: #dac3ae;
 }
 
 .todo{
