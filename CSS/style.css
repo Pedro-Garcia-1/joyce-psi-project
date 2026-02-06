@@ -61,6 +61,11 @@ body::before {
     transition: 0.2s ease;
 }
 
+.more-info-btn:hover{
+    background-color: #dac3ae;
+    border-color: #dac3ae;
+}
+
 #section-1{
     width: 100vw;
     height: 100vh;
@@ -152,6 +157,10 @@ video{
     transition: 0.2s ease;
 }
 
+.services-btn:hover{
+    background-color: #dac3ae;
+    border-color: #dac3ae;
+}
 
 
 /* section 3 ------------------------------------------------ */
@@ -236,6 +245,11 @@ video{
     width: 350px;
     z-index: 4;
     transition: 0.2s ease;
+}
+
+.contact-btn:hover{
+    background-color: #dac3ae;
+    border-color: #dac3ae;
 }
 
 /* section 3 ------------------------------------ */
@@ -328,6 +342,11 @@ video{
     width: 115px;
     z-index: 4;
     transition: 0.2s ease;
+}
+
+.testimonals-btn:hover{
+    background-color: #dac3ae;
+    border-color: #dac3ae;
 }
 
 /* section 5 ----------------------------------- */
@@ -432,10 +451,12 @@ video{
     transition: 0.2s ease;
 }
 
-a:hover{
+.back-to-beginning-btn:hover{
     background-color: #dac3ae;
     border-color: #dac3ae;
 }
+
+
 
 .todo{
     opacity: 0;
