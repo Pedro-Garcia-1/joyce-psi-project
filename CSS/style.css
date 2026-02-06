@@ -19,8 +19,8 @@ body::before {
   height: 100vh;
   background: linear-gradient(
     to right,
-    rgba(135, 150, 130, 0.9), /* Green color */
-    rgba(176, 196, 170, 0.00)    /* Transparent edge */
+    rgba(135, 150, 130, 0.9), 
+    rgba(176, 196, 170, 0.00)    
   );
   z-index: 1;
 }
@@ -149,12 +149,13 @@ video{
     border-width: 8px;
     padding-bottom: 3px;
     background-color: #ffead8;
-    width: 300px;
-
+    width: 120px;
+    font-size: 15pt;
     position: relative;
     top: 28%;
-    left: 27.3%;
+    left: 92.9%;
     transition: 0.2s ease;
+    z-index: 2;
 }
 
 .services-btn:hover{
@@ -210,7 +211,7 @@ video{
 
 .paragraph-sec-3{
     font-family: "Roboto Slab", serif;
-    font-size: 15pt;
+    font-size: 14pt;
     color: #ffead8;
 }
 
@@ -466,6 +467,54 @@ video{
 .todo.show{
     opacity: 1;
 }
+
+/* Screen Adjusts ------------------------------------------------- */
+@media (max-width: 500px) {
+
+/* section 1 --------------------------------- */
+body{
+    background-image: url(/images/duasPessoasTomandoCafeRedimensionada.jpg);
+    background-size: 100vh;
+}
+body::before{
+    background: rgba(116, 137, 100, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+#site-logo{
+    width: 220px;
+    height: 110px;
+    position: relative;
+    left: 3%;
+    margin-top: 2%;
+}
+.main-paragraph-sec-1{
+    position: relative;
+    left: 35%;
+    
+    font-size: 22pt;
+    color: #ffead8;
+    /* backdrop-filter: blur(5px); */
+}
+.main-content-sec-1{
+    position: absolute;
+    top: 55%;
+}
+.more-info-btn{
+    position: relative;
+    left: 34%;
+    top: 5%;
+
+}
+}
+
+
+
+
+
+
+
+
 
 
 /* Fontes ----------------------------------------*/
